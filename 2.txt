@@ -1,11 +1,6 @@
-https://github.com/analogstudio/OpenColorIO-Config-ACES-releases
-https://github.com/borisfaley/ComfyUI-ACES-EXR-OCIO
-https://github.com/canada-ca/TBS-OCIO-ESP
-https://github.com/chrisbrejon/ARRI-K1S1-OCIO-Config
-https://github.com/chrisbrejon/RED-IPP2-OCIO-Config
+https://github.com/BlenderCN-Org/blender-ocio-configs
+https://github.com/Replayboys/rpb-ocio
 https://github.com/dr1pvfx/dr1p_ocio_configs
-https://github.com/irieger/blender-wide-gamut-ocio
-https://github.com/kekefreedog/OCIO-configs
-https://github.com/nick-shaw/ocio-configs
-https://github.com/sharktacos/OpenColorIO-configs
-https://github.com/sobotka/SB2383-Configuration
+https://github.com/charleshetier/blender-luts-config
+https://github.com/sobotka/spectral-cycles-ocio-config
+https://github.com/jedypod/ociogen

@@ -52,7 +52,7 @@ jobs:
       - name: Generate checksum
         run: |
           cd artifacts
-          cat *.ocioz.sha256 > ocioz.sha256
+          cat **/*.ocioz.sha256 > ocioz.sha256
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

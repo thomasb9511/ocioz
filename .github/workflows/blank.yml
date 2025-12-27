@@ -22,15 +22,15 @@ jobs:
         run: |
          mv ${{ matrix.build_type }}.txt repos.txt
          chmod +x build.sh
+         ls
 
       - name: Run build
         run: bash build.sh
 
       - name: Generate checksum
         run: |
-          for f in *.ocioz; do
-            sha256sum "$f" > "$f.sha256"
-          done
+          cd /home/runner/work/ocioz/ocioz/ocio_output
+          sha256sum *.ocioz > ${{ matrix.build_type }}.ocioz.sha256
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
@@ -38,7 +38,7 @@ jobs:
           name: ocioz-${{ matrix.build_type }}
           path: |
             *.ocioz
-            *.ocioz.sha256
+            /home/runner/work/ocioz/ocioz/ocio_output/*.ocioz.sha256
 
   release:
     needs: build

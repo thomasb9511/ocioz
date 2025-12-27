@@ -1,0 +1,6 @@
+https://github.com/chrisbrejon/OpenDRT-OCIO-Config
+https://github.com/analogstudio/OpenColorIO-Config-ACES-releases
+https://github.com/nick-shaw/ocio-configs
+https://github.com/edin45/better_integrated_blender_aces
+https://github.com/BrianHanke/bhgc-ocio
+https://github.com/sobotka/natron-ocioconfig

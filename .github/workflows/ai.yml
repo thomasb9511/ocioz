@@ -1,0 +1,54 @@
+name: OCIO Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "master" ]
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.split.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          split -n l/6 repos.txt chunks_
+          echo "matrix=$(ls chunks_ | jq -R . | jq -s .)" >> $GITHUB_OUTPUT
+
+  build:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        chunk: ${{ fromJson(needs.prepare.outputs.matrix) }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: chmod +x scripts/*.sh
+      - run: ./scripts/build.sh chunks/${{ matrix.chunk }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-${{ matrix.chunk }}
+          path: output/
+
+  finalize:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: collected
+      - run: |
+          mkdir dist
+          cp collected/**/** dist/
+          ./scripts/scan_ocio.sh
+          python3 scripts/manifest.py
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ocio-$(date +%Y%m%d)
+          name: "OCIO Master Archive"
+          files: dist/*

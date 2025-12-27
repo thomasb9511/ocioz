@@ -3,7 +3,8 @@ set -euo pipefail
 
 ROOT="$(pwd)"
 OUTDIR="$ROOT/ocio_output"
-
+pip install opencolorio
+ociocpuinfo
 mkdir -p "$OUTDIR"
 
 echo "== Cloning repositories =="

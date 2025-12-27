@@ -37,7 +37,7 @@ jobs:
         with:
           name: ocioz-${{ matrix.build_type }}
           path: |
-            *.ocioz
+            /home/runner/work/ocioz/ocioz/ocio_output/*.ocioz
             /home/runner/work/ocioz/ocioz/ocio_output/*.ocioz.sha256
 
   release:
@@ -48,6 +48,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: artifacts
+          
+      - name: Generate checksum
+        run: |
+          cd artifacts
+          cat *.ocioz.sha256 > ocioz.sha256
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

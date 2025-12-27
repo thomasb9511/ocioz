@@ -1,12 +1,6 @@
 https://codeberg.org/dylan-perry/acesdp3
-https://github.com/BlenderCN-Org/blender-ocio-configs
-https://github.com/BrianHanke/bhgc.ocio
-https://github.com/chrisbrejon/ACES-2.0-OCIO-Config
-https://github.com/chrisbrejon/OpenDRT-OCIO-Config
-https://github.com/dovanbel/tk-nuke-ocio
-https://github.com/hbalint-sys/ocio
-https://github.com/jimmymzhu/Arri-LogC4-IDT
 https://github.com/mrandrewpettit/color_management
-https://github.com/Replayboys/rpb-ocio
-https://github.com/sobotka/nikonD5200ocio
-https://github.com/throb/ocio-config
+https://github.com/chrisbrejon/RED-IPP2-OCIO-Config
+https://github.com/bram0101/BSP-ACES-OCIO-Config
+https://github.com/so-rose/blender-color
+https://github.com/Ginurx/Blender-ACES-Config

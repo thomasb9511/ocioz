@@ -1,0 +1,12 @@
+https://github.com/ayoburgess/cgi_aces_ocio
+https://github.com/bram0101/BSP-ACES-OCIO-Config
+https://github.com/charleshetier/blender-luts-config
+https://github.com/chrisbrejon/ARRI-REVEAL-OCIO-Config
+https://github.com/chrisbrejon/SONY-VENICE-OCIO-Config
+https://github.com/edin45/better_integrated_blender_aces
+https://github.com/jedypod/colortools
+https://github.com/kernowkid/ocio
+https://github.com/ninoNinkovic/OCIO_CONFIG
+https://github.com/so-rose/blender-color
+https://github.com/sobotka/spectral-cycles-ocio-config
+https://github.com/RolandVyens/AIO-OCIO

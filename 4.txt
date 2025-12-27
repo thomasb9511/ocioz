@@ -1,12 +1,6 @@
+https://github.com/chrisbrejon/ACES-2.0-OCIO-Config
+https://github.com/throb/ocio-config
+https://github.com/kekefreedog/OCIO-configs
+https://github.com/chrisbrejon/SONY-VENICE-OCIO-Config
 https://github.com/bean-mhm/grace
-https://github.com/BrianHanke/bhgc-ocio
-https://github.com/chrisbrejon/ACES-1.3-OCIO-Config
-https://github.com/chrisbrejon/DAS-UBER-OCIO-Config
-https://github.com/codercatclub/cc-studio-ocio
-https://github.com/Ginurx/Blender-ACES-Config
-https://github.com/jedypod/ociogen
-https://github.com/Maxon-Computer/Redshift-OCIO-Configs
 https://github.com/Polyrhythm/aces_ocio_ue4
-https://github.com/sobotka/natron-ocioconfig
-https://github.com/thezakman/ACES-blender-colour-management
-https://github.com/Joegenco/PixelManager

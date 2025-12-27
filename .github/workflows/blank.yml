@@ -13,16 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        build_type: ['1', '2']
+        build_type: ['1']
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Make script executable
-        run: chmod +x ${{ matrix.build_type }}.sh
+        run: |
+         mv ${{ matrix.build_type }}.txt repos.txt
+         chmod +x build.sh
 
       - name: Run build
-        run: bash ${{ matrix.build_type }}.sh
+        run: bash build.sh
 
       - name: Generate checksum
         run: |

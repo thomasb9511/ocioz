@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 permissions:
   contents: write
@@ -53,6 +53,7 @@ jobs:
         run: |
           cd artifacts
           cat **/*.ocioz.sha256 > ocioz.sha256
+          rm **/*.ocioz.sha256
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

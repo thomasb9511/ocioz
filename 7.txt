@@ -1,9 +1,5 @@
-https://github.com/hbalint-sys/ocio
-https://github.com/canada-ca/TBS-OCIO-ESP
+https://github.com/bean-mhm/grace
+https://github.com/chrisbrejon/ARRI-REVEAL-OCIO-Config
+https://github.com/hqvfx/gaffer
+https://github.com/mrandrewpettit/color_management
 https://github.com/sobotka/SB2383-Configuration
-https://github.com/kernowkid/ocio
-https://github.com/chrisbrejon/DAS-UBER-OCIO-Config
-https://github.com/Joegenco/PixelManager
-https://github.com/TheArtofSaul/RedshiftOCIOConfigs
-https://github.com/jedypod/JP2499
-https://github.com/AcademySoftwareFoundation/ColorInterop

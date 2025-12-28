@@ -1,6 +1,5 @@
 https://github.com/chrisbrejon/ACES-2.0-OCIO-Config
 https://github.com/throb/ocio-config
-https://github.com/kekefreedog/OCIO-configs
 https://github.com/chrisbrejon/SONY-VENICE-OCIO-Config
 https://github.com/bean-mhm/grace
 https://github.com/Polyrhythm/aces_ocio_ue4

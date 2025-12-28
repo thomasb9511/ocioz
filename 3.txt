@@ -1,6 +1,5 @@
-https://github.com/BrianHanke/bhgc.ocio
-https://github.com/sobotka/nikonD5200ocio
-https://github.com/irieger/blender-wide-gamut-ocio
-https://github.com/chrisbrejon/ARRI-REVEAL-OCIO-Config
-https://github.com/RolandVyens/AIO-OCIO
-https://github.com/Maxon-Computer/Redshift-OCIO-Configs
+https://github.com/ampas/ACES_ODT_Candidates
+https://github.com/charleshetier/blender-luts-config
+https://github.com/dr1pvfx/dr1p_ocio_configs
+https://github.com/kekefreedog/OCIO-configs
+https://github.com/sideeffects/SideFXLabs

@@ -9,6 +9,7 @@ git clone https://github.com/x-motemen/ghq
 cd ghq
 make install
 cd ..
+ghq
 mkdir -p "$OUTDIR"
 
 echo "== Cloning repositories =="
@@ -18,7 +19,7 @@ while read -r repo; do
 
   if [[ ! -d "$name" ]]; then
     echo "Cloning $repo"
-    git clone --depth=1 "$repo"
+    ghq get --depth=1 "$repo"
   fi
 done < repos.txt
 

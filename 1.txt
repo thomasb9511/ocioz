@@ -1,6 +1,5 @@
 https://codeberg.org/dylan-perry/acesdp3
-https://github.com/mrandrewpettit/color_management
-https://github.com/chrisbrejon/RED-IPP2-OCIO-Config
-https://github.com/bram0101/BSP-ACES-OCIO-Config
-https://github.com/so-rose/blender-color
-https://github.com/Ginurx/Blender-ACES-Config
+https://github.com/BrianHanke/bhgc.ocio
+https://github.com/codercatclub/cc-studio-ocio
+https://github.com/jimmymzhu/Arri-LogC4-IDT
+https://github.com/RolandVyens/AIO-OCIO

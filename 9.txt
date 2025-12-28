@@ -1,0 +1,5 @@
+https://github.com/borisfaley/ComfyUI-ACES-EXR-OCIO
+https://github.com/chrisbrejon/OpenDRT-OCIO-Config
+https://github.com/jedypod/colortools
+https://github.com/ninoNinkovic/OCIO_CONFIG
+https://github.com/TheArtofSaul/RedshiftOCIOConfigs

@@ -7,7 +7,7 @@ pip install opencolorio
 ociocpuinfo
 git clone https://github.com/x-motemen/ghq
 cd ghq
-make install
+sudo make install
 cd ..
 ghq
 mkdir -p "$OUTDIR"

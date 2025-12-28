@@ -1,0 +1,5 @@
+https://github.com/bram0101/BSP-ACES-OCIO-Config
+https://github.com/chrisbrejon/RED-IPP2-OCIO-Config
+https://github.com/jedypod/JP2499
+https://github.com/Polyrhythm/aces_ocio_ue4
+https://github.com/thezakman/ACES-blender-colour-management

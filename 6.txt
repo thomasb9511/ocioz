@@ -1,6 +1,5 @@
-https://github.com/dovanbel/tk-nuke-ocio
-https://github.com/borisfaley/ComfyUI-ACES-EXR-OCIO
-https://github.com/sharktacos/OpenColorIO-configs
-https://github.com/jedypod/colortools
-https://github.com/chrisbrejon/ACES-1.3-OCIO-Config
-https://github.com/thezakman/ACES-blender-colour-management
+https://github.com/ayoburgess/cgi_aces_ocio
+https://github.com/chrisbrejon/ARRI-K1S1-OCIO-Config
+https://github.com/hbalint-sys/ocio
+https://github.com/Maxon-Computer/Redshift-OCIO-Configs
+https://github.com/sobotka/nikonD5200ocio

@@ -4,3 +4,8 @@ https://github.com/dr1pvfx/dr1p_ocio_configs
 https://github.com/charleshetier/blender-luts-config
 https://github.com/sobotka/spectral-cycles-ocio-config
 https://github.com/jedypod/ociogen
+https://github.com/sideeffects/SideFXLabs
+https://github.com/Aspirata/Blender-ACES-Manager
+https://github.com/ampas/ACES_ODT_Candidates
+https://github.com/MARUI-PlugIn/BlenderXR
+https://github.com/hqvfx/gaffer

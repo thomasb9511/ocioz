@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        build_type: ['1', '2']
+        build_type: ['1', '2', '3', '4', '5', '6', '7', '8']
 
     steps:
       - uses: actions/checkout@v4

@@ -4,3 +4,6 @@ https://github.com/sobotka/SB2383-Configuration
 https://github.com/kernowkid/ocio
 https://github.com/chrisbrejon/DAS-UBER-OCIO-Config
 https://github.com/Joegenco/PixelManager
+https://github.com/TheArtofSaul/RedshiftOCIOConfigs
+https://github.com/jedypod/JP2499
+https://github.com/AcademySoftwareFoundation/ColorInterop

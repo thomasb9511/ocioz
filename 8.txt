@@ -3,3 +3,4 @@ https://github.com/chrisbrejon/ARRI-K1S1-OCIO-Config
 https://github.com/ayoburgess/cgi_aces_ocio
 https://github.com/ninoNinkovic/OCIO_CONFIG
 https://github.com/codercatclub/cc-studio-ocio
+https://github.com/kekefreedog/OCIO-configs

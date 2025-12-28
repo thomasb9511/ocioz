@@ -22,8 +22,9 @@ done < repos.txt
 
 echo
 echo "== Searching for .ocio files =="
-
-find ghq/. -type f -name "*.ocio" \
+ls
+ls /home/runner/ghq/
+find /home/runner/ghq/ -type f -name "*.ocio" \
   ! -path "./.git/*" \
   ! -path "./ocio_output/*" \
   | sort | while read -r ocio; do

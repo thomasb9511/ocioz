@@ -5,17 +5,8 @@ ROOT="$(pwd)"
 OUTDIR="$ROOT/ocio_output"
 pip install opencolorio
 ociocpuinfo
-git clone https://github.com/x-motemen/ghq
-cd ghq
-
-echo "== Cloning repositories =="
-ls
-sudo make install
-
-echo "== Cloning repositories =="
-ls
-cd ..
-ghq
+chmod +x ghq
+./ghq
 mkdir -p "$OUTDIR"
 
 echo "== Cloning repositories =="
@@ -25,7 +16,7 @@ while read -r repo; do
 
   if [[ ! -d "$name" ]]; then
     echo "Cloning $repo"
-    ghq get --depth=1 "$repo"
+    ./ghq get --depth=1 "$repo"
   fi
 done < repos.txt
 

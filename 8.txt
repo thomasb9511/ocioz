@@ -1,6 +1,5 @@
-https://github.com/jimmymzhu/Arri-LogC4-IDT
-https://github.com/chrisbrejon/ARRI-K1S1-OCIO-Config
-https://github.com/ayoburgess/cgi_aces_ocio
-https://github.com/ninoNinkovic/OCIO_CONFIG
-https://github.com/codercatclub/cc-studio-ocio
-https://github.com/kekefreedog/OCIO-configs
+https://github.com/BlenderCN-Org/blender-ocio-configs
+https://github.com/chrisbrejon/DAS-UBER-OCIO-Config
+https://github.com/irieger/blender-wide-gamut-ocio
+https://github.com/nick-shaw/ocio-configs
+https://github.com/sobotka/spectral-cycles-ocio-config

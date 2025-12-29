@@ -13,20 +13,31 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        build_type: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+        build_type: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Make script executable
         run: |
-         mv ${{ matrix.build_type }}.txt repos.txt
-         chmod +x build.sh
-         ls
+         if [ '${{ matrix.build_type }}' == '12' ]; then
+             chmod +x gret.sh
+           else
+             mv ${{ matrix.build_type }}.txt repos.txt
+             chmod +x build.sh
+             ls
+         fi
+
 
       - name: Run build
-        run: bash build.sh
-
+        run: |
+          
+          if [ '${{ matrix.build_type }}' == '12' ]; then
+              bash gret.sh
+            else
+              bash build.sh
+          fi
+          
       - name: Generate checksum
         run: |
           cd /home/runner/work/ocioz/ocioz/ocio_output

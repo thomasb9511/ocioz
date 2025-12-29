@@ -6,7 +6,7 @@ OUTDIR="$ROOT/ocio_output"
 pip install opencolorio
 ociocpuinfo
 chmod +x ghq
-./ghq
+./ghq help
 mkdir -p "$OUTDIR"
 
 echo "== Cloning repositories =="

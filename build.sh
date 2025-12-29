@@ -16,7 +16,7 @@ while read -r repo; do
 
   if [[ ! -d "$name" ]]; then
     echo "Cloning $repo"
-    ./ghq get "$repo"
+    ./ghq get --no-recursive  "$repo"
   fi
 done < repos.txt
 

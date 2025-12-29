@@ -21,36 +21,12 @@ tar -xf blender-5.0.0-linux-x64.tar.xz -C blender-5.0.0
 wget https://download.blender.org/release/Blender4.5/blender-4.5.5-linux-x64.tar.xz
 mkdir blender-4.5.5
 tar -xf blender-4.5.5-linux-x64.tar.xz -C blender-4.5.5
-wget https://download.blender.org/release/Blender4.5/blender-4.5.4-linux-x64.tar.xz
-mkdir blender-4.5.4
-tar -xf blender-4.5.4-linux-x64.tar.xz -C blender-4.5.4
-wget https://download.blender.org/release/Blender4.5/blender-4.5.3-linux-x64.tar.xz
-mkdir blender-4.5.3
-tar -xf blender-4.5.3-linux-x64.tar.xz -C blender-4.5.3
-wget https://download.blender.org/release/Blender4.5/blender-4.5.2-linux-x64.tar.xz
-mkdir blender-4.5.2
-tar -xf blender-4.5.2-linux-x64.tar.xz -C blender-4.5.2
-wget https://download.blender.org/release/Blender4.5/blender-4.5.1-linux-x64.tar.xz
-mkdir blender-4.5.1
-tar -xf blender-4.5.1-linux-x64.tar.xz -C blender-4.5.1
 wget https://download.blender.org/release/Blender4.5/blender-4.5.0-linux-x64.tar.xz
 mkdir blender-4.5.0
 tar -xf blender-4.5.0-linux-x64.tar.xz -C blender-4.5.0
 wget https://download.blender.org/release/Blender3.6/blender-3.6.23-linux-x64.tar.xz
 mkdir blender-3.6.23
 tar -xf blender-3.6.23-linux-x64.tar.xz -C blender-3.6.23
-wget https://download.blender.org/release/Blender3.6/blender-3.6.22-linux-x64.tar.xz
-mkdir blender-3.6.22
-tar -xf blender-3.6.22-linux-x64.tar.xz -C blender-3.6.22
-wget https://download.blender.org/release/Blender3.6/blender-3.6.21-linux-x64.tar.xz
-mkdir blender-3.6.21
-tar -xf blender-3.6.21-linux-x64.tar.xz -C blender-3.6.21
-wget https://download.blender.org/release/Blender3.6/blender-3.6.20-linux-x64.tar.xz
-mkdir blender-3.6.20
-tar -xf blender-3.6.20-linux-x64.tar.xz -C blender-3.6.20
-wget https://download.blender.org/release/Blender3.2/blender-3.2.0-linux-x64.tar.xz
-mkdir blender-3.2.0
-tar -xf blender-3.2.0-linux-x64.tar.xz -C blender-3.2.0
 wget https://download.blender.org/release/Blender3.2/blender-3.2.1-linux-x64.tar.xz
 mkdir blender-3.2.1
 tar -xf blender-3.2.1-linux-x64.tar.xz -C blender-3.2.1

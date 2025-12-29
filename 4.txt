@@ -3,4 +3,4 @@ https://github.com/chrisbrejon/ACES-1.3-OCIO-Config
 https://github.com/edin45/better_integrated_blender_aces
 https://github.com/kernowkid/ocio
 https://github.com/so-rose/blender-color
-https://github.com/blender/blender
+https://projects.blender.org/blender/blender.git

@@ -3,3 +3,4 @@ https://github.com/chrisbrejon/ARRI-K1S1-OCIO-Config
 https://github.com/hbalint-sys/ocio
 https://github.com/Maxon-Computer/Redshift-OCIO-Configs
 https://github.com/sobotka/nikonD5200ocio
+https://github.com/app/blender-3dluts-ocio

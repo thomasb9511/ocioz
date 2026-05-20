@@ -47,7 +47,7 @@ jobs:
           cp collected/**/** dist/
           ./scripts/scan_ocio.sh
           python3 scripts/manifest.py
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v3
         with:
           tag_name: ocio-$(date +%Y%m%d)
           name: "OCIO Master Archive"

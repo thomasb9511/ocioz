@@ -71,7 +71,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: PixelManager
-          name: PixelManager Rolling Release
+          tag_name: PixelManager2
+          name: PixelManager Rolling Release2
           prerelease: true
           files: artifacts/**/*

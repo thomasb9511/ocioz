@@ -4,3 +4,4 @@ https://github.com/jedypod/colortools
 https://github.com/ninoNinkovic/OCIO_CONFIG
 https://github.com/TheArtofSaul/RedshiftOCIOConfigs
 https://github.com/richardssam/ffmpeg-ocio-test
+https://github.com/SelfishKrus/K_SubstanceUELookDev

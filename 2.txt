@@ -3,3 +3,4 @@ https://github.com/canada-ca/TBS-OCIO-ESP
 https://github.com/dovanbel/tk-nuke-ocio
 https://github.com/Joegenco/PixelManager
 https://github.com/sharktacos/OpenColorIO-configs
+https://github.com/KhronosGroup/glTF-3ds-Max-Plugin

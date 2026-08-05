@@ -12,6 +12,9 @@ mkdir /home/runner/ghq/
 echo "== Cloning repositories =="
 cd /home/runner/ghq/
 mkdir blender
+wget https://mirror.clarkson.edu/blender/release/Blender5.2/blender-5.2.0-linux-x64.tar.xz
+mkdir blender-5.2.0
+tar -xf blender-5.2.0-linux-x64.tar.xz -C blender-5.2.0
 wget https://download.blender.org/release/Blender5.0/blender-5.0.1-linux-x64.tar.xz
 mkdir blender-5.0.1
 tar -xf blender-5.0.1-linux-x64.tar.xz -C blender-5.0.1

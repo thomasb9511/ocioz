@@ -14,7 +14,7 @@ jobs:
     outputs:
       matrix: ${{ steps.split.outputs.matrix }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: |
           split -n l/6 repos.txt chunks_
           echo "matrix=$(ls chunks_ | jq -R . | jq -s .)" >> $GITHUB_OUTPUT
@@ -27,7 +27,7 @@ jobs:
         chunk: ${{ fromJson(needs.prepare.outputs.matrix) }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: chmod +x scripts/*.sh
       - run: ./scripts/build.sh chunks/${{ matrix.chunk }}
       - uses: actions/upload-artifact@v7
